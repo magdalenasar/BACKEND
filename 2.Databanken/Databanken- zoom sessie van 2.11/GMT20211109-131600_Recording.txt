@@ -1,0 +1,92 @@
+00:06:35	David Ve:	ja
+00:06:36	Marcos Mercado:	ja
+00:06:38	David Ve:	veel beter
+00:06:47	Alien:	ik hoor niks?
+00:07:50	Aron Heremans:	voorlopig niet
+00:11:03	Tijl:	foreign keys
+00:11:06	David Ve:	2 kolommen met de foreign keys
+00:14:50	Aron Heremans:	Is goed
+00:14:52	Marcos Mercado:	ok
+00:14:57	Anthony Meyers:	allergisch aan voetbal
+00:14:58	Aron Heremans:	Liever wielrennen 🙂
+00:14:59	Marcos Mercado:	Anderlecht
+00:15:00	Steven Thans:	ok en nee
+00:15:00	Antony G.:	enkel WK xD
+00:15:11	Mathias S.:	Wielrennen eerder 🙂
+00:15:17	Aron Heremans:	yes
+00:16:44	Marcos Mercado:	geduld is een schone deugd
+00:19:11	Marcos Mercado:	ja
+00:19:12	Tijl:	ja
+00:19:15	Anthony Meyers:	yes
+00:19:17	Tim Vercammen:	ja
+00:19:45	David Ve:	Alien, uw audio instellingen checken
+00:20:18	Stijn Gyssens:	Alien je bent niet met je audio verbonden
+00:20:34	David Ve:	op de microfoon klikken en dan de juiste speaker kiezen
+00:20:46	David Ve:	ik moet altijd kiezen tussen twaalf opties
+00:21:08	Marcos Mercado:	Alien is back!
+00:21:11	Antony G.:	welcome
+00:22:19	Antony G.:	pasop leeft misschien nog wel :p
+00:22:35	Antony G.:	hahaha
+00:22:39	Marcos Mercado:	de man mss niet meer
+00:22:50	Marcos Mercado:	haha
+00:22:51	Aron Heremans:	:p
+00:23:56	Marcos Mercado:	ja
+00:23:59	Steven Thans:	yes
+00:24:52	Marcos Mercado:	dus een ERD?
+00:26:25	David Ve:	tabel met parent/child
+00:26:30	Tijl:	categorie parent
+00:26:49	David Ve:	foreign keys gebruiken van de categorie tabel
+00:29:04	David Ve:	nee
+00:29:06	Stijn Gyssens:	niet meteen
+00:29:09	Marcos Mercado:	Nee, even alles assimileren
+00:29:10	Steven Thans:	nee
+00:29:20	Thomas Spiessens:	ja
+00:29:23	Antony G.:	mjah
+00:34:56	Marcos Mercado:	ca va
+00:34:58	Tijl:	is duidelijk voor mij
+00:34:58	David Ve:	nee dudilijk
+00:35:00	Stijn Gyssens:	goed genoeg
+00:35:04	Alien:	ok
+00:43:30	Steven Thans:	werkt
+00:43:36	David Ve:	ik had die al gedaan verleden week
+00:43:45	Tijl:	ja, werkt ook hier
+00:43:48	Naïm:	werkt ook bij me 
+00:43:49	Mathias S.:	Op Mac is het toch wat anders denk ik
+00:43:52	Amy Van den Bergh:	ok bij mij
+00:43:54	Mathias S.:	Begrijp het maar moet uitoeken
+00:43:54	Marcos Mercado:	ik nog niet, sorry...heb migraine
+00:44:10	Marcos Mercado:	txh
+00:44:23	Steven Thans:	beterschap
+00:44:34	Aron Heremans:	Je kan mee op slack komen voor vragen steven?
+00:44:44	Alien:	Ok, prima. Ga zo dadelijk hopelijk een scherm halen
+00:48:39	Aron Heremans:	Men snoepjes :'(
+00:52:54	Marcos Mercado:	moet het niet snoepjes 2 zijn?
+00:54:46	Marcos Mercado:	ah ja natuurlijk!
+00:56:57	Stijn Gyssens:	nee
+00:56:57	Steven Thans:	nee
+00:57:05	Marcos Mercado:	nee, even laten doorsijpelen,
+00:57:06	Antony G.:	het wordt opgenomen om terug te kunnen zien?
+00:57:24	Antony G.:	ok
+00:57:59	Alien:	Anders eventueel via e-mail?
+00:58:37	Antony G.:	steven, examen morgen om hoe laat was het?
+00:58:51	Aron Heremans:	2 tot 4 normaal
+00:58:52	Aron Heremans:	antony
+00:59:01	Alien:	Het is toch pas volgende week?
+00:59:10	Aron Heremans:	Herexamen alien
+00:59:30	Alien:	Slight heart attack ;-) Maar succes voor morgen!
+01:00:01	Aron Heremans:	ja
+01:00:03	Antony G.:	ik dacht het wel maar het was om zeker te zijn^^
+01:01:21	Antony G.:	ok
+01:01:22	Aron Heremans:	oke
+01:01:28	Marcos Mercado:	Fijne namiddag allemaal!
+01:01:36	Aron Heremans:	voor jou ook!
+01:01:39	Thomas Peeters:	nog een fijn verla
+01:01:40	Diede:	Vooru ook!
+01:01:45	Thomas Peeters:	verlengd weekend*
+01:01:54	Thomas Spiessens:	oke bedankt
+01:02:01	Anthony Meyers:	tot de volgende
+01:02:01	Alien:	Fijn week-end!
+01:02:02	Tijl:	fijn weekend, iedereen
+01:02:08	Stijn Gyssens:	tot volgende week
+01:02:12	Alien:	Bedankt
+01:02:13	Tim Vercammen:	Bedankt, tot volgende week!

@@ -1,0 +1,51 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red43\green51\blue155;\red23\green95\blue199;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c22353\c28627\c67059;\cssrgb\c9804\c46275\c82353;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs28 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 SELECT det_txt_nl AS Gemeente,\uc0\u8232 det_cases AS AantalBesmettingen\u8232 FROM gemeente\u8232 WHERE det_txt_nl LIKE 'C%'\u8232 ORDER BY det_cases DESC;\
+\pard\pardeftab720\partightenfactor0
+
+\fs21 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf0 SELECT prv_naam,\uc0\u8232 COUNT(det_txt_nl) AS Aantal_Gemeenten\u8232 FROM provincie\u8232 INNER JOIN gemeente ON prv_id=det_prv_id\u8232 GROUP BY prv_naam\u8232 ORDER BY Aantal_Gemeenten DESC;\
+SELECT reg_name AS Regio,\uc0\u8232 SUM(det_cases) AS Totaal_besmettingen\u8232 FROM regio\u8232 INNER JOIN provincie ON reg_id=prv_reg_id\u8232 INNER JOIN gemeente ON prv_id=det_prv_id\u8232 GROUP BY Regio\u8232 ORDER BY Regio\
+\pard\pardeftab720\qc\partightenfactor0
+
+\fs20\fsmilli10200 \cf3 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\fs21 \cf0 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf0 SELECT reg_name AS Regio,\uc0\u8232 SUM(det_cases) AS Totaal_besmettingen,\u8232 ROUND(SUM(det_cases) * 100 / (SELECT SUM(det_cases) FROM gemeente),1) AS Procentueel\u8232 FROM gemeente\u8232 INNER JOIN provincie ON det_prv_id=prv_id\u8232 INNER JOIN regio ON prv_reg_id=reg_id\u8232 GROUP BY Regio\u8232 ORDER BY Regio;\
+\pard\pardeftab720\qc\partightenfactor0
+
+\fs20\fsmilli10200 \cf4 \strokec4 \
+\pard\pardeftab720\partightenfactor0
+
+\fs21 \cf0 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf0 SELECT reg_name AS Regio,\uc0\u8232 prv_naam AS Provincie,\u8232 ROUND(avg(det_cases)) AS Gemiddeld_aantal_besmettingen_per_gemeente\u8232 FROM regio\u8232 INNER JOIN provincie ON reg_id=prv_reg_id\u8232 INNER JOIN gemeente ON prv_id=det_prv_id\u8232 GROUP BY Provincie\u8232 ORDER BY Regio, Provincie;\
+\pard\pardeftab720\qc\partightenfactor0
+
+\fs20\fsmilli10200 \cf4 \strokec4 \
+\pard\pardeftab720\qc\partightenfactor0
+
+\fs26\fsmilli13090 \cf4 \
+\pard\pardeftab720\partightenfactor0
+
+\fs21 \cf0 \strokec2 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf0 create table centra\uc0\u8232 (\u8232 cen_id int auto_increment,\u8232 cen_naam varchar(255) null,\u8232 cen_det_id int null,\u8232 constraint centra_pk\u8232 primary key (cen_id)\u8232 );\
+\
+}
